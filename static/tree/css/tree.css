@@ -1,0 +1,145 @@
+/*全局*/
+.mybody{
+    margin-top: 0px;
+    border: 0;
+    padding: 0em;
+    outline: none;
+    font-size: 12px;
+    position: relative;
+    background-attachment: fixed;
+    background-size: auto;
+    background: transparent url("../../image/bg.jpg") no-repeat scroll -50px -100px;
+
+    text-align: center;
+}
+p{
+  font-size: 12px;
+}
+ul{
+    list-style-type: none;
+}
+button{
+    width: 35px;
+    height: 30px;
+}
+/*去除jquery-mobile加载时候弹出来的loading*/
+.ui-loader-default{ display:none}
+.ui-mobile-viewport{ border:none;}
+.ui-page {padding: 0; margin: 0; outline: 0}
+
+/*上面的导航*/
+.menu-top{
+    height: auto;
+    position: relative;
+    text-align: center;
+    /*padding-top: 10px;*/
+    overflow: auto;
+    /*background-color: #61749B;*/
+    /*background: transparent url("../../tree_images/index.png") no-repeat scroll -10px -10px;*/
+}
+.top-left{
+    float: left;
+    width: 60%;
+}
+.top-center{
+    margin-top: 10px;
+    float: left;
+    width: 20%;
+}
+.top-right{
+    margin-top: 10px;
+    float: left;
+    width: 20%;
+}
+
+.my-img{
+    padding-left: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+.right-area{
+    background-color: #0BB20C;
+    height: 100%;
+}
+
+/*下面内容*/
+.container{
+    width: 100%;
+}
+.main-container{
+    height: 100%;
+    text-align: center;
+
+}
+/*右边的导航*/
+.right-menu{
+    margin-top: 30px;
+    border-right: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.right-menu button{
+    display: none;
+    background-color: rgba(255,255,255, 0.6);
+    margin-top: 2px;
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    border-radius: 3px;
+}
+.right-menu button:hover{
+    background-color: rgba(255,255,255,0.9);
+}
+/*树木区域*/
+.tree-img {
+    left: 0;
+    width: 100%;
+    height: 80px;
+    /*margin-top: 100%;*/
+    /*clip: rect(350px,400px,400px,330px);*/
+}
+.tree-img img{
+    width: 200px;
+    height: 100px;
+}
+
+
+
+.bless-tucao{
+    position: absolute;
+    /*bottom: 0px;*/
+    top: 80%;
+    left: 35%;
+    /*margin-left: 30%;*/
+    /*margin-top: 10%;*/
+    /*padding-right: 10px;*/
+    /*height: 20%;*/
+}
+/*页脚*/
+.footer{
+    margin-top: 0px;
+}
+
+/***********************某些部件************************/
+/*1.显示历史与心愿的list*/
+.list-contain{
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 3px 2px rgba(0,0,0,0.1);
+    padding: 10px 5px;
+    border-radius: 3px;
+}
+/*列表一个实例*/
+.item-con{
+    width: 100%;
+}
+.item-left{
+    width: 20%;
+}
+.item-main{
+    width: 80%;
+}

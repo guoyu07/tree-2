@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tree_test</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="static/tree/css/tree.css">
+    <!--<link rel="stylesheet" type="text/css" href="plugin/jquery-mobile/jquery.mobile-1.4.4.min.css">-->
+    <link rel="stylesheet" type="text/css" href="static/plugin/weui/weui.min.css">
+    <link href="//cdn.bootcss.com/pure/0.6.0/pure-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+
+    <!--js-->
+    <script src="static/plugin/jquery/jquery.min.js"></script>
+    <script src="static/plugin/jquery/jquery.mobile-1.4.4.min.js"></script>
+    <script src="static/tree/js/jquery.lqc.extension.js"></script>
+    <script src="static/tree/js/tree.js"></script>
+
+
+</head>
+<body class="mybody">
+<div class="menu-top" >
+    <div class="menu-top-con">
+        <div class="top-left pure-u-1-2">
+            <div>
+                <a><img class="my-img" src="static/image/tilo-avatar.png"></a>
+                <p>lqc的祝福树</p>
+            </div>
+        </div>
+        <div class="top-center pure-u-1-6"><button class="account">积分</button></div>
+        <div class="top-right pure-u-1-6"><button class="ranking-list">排行</button></div>
+        <div><a class="msg pure-u-1-6"></a></div>
+    </div>
+</div>
+<div class="container pure-g">
+    <div class="main-container pure-u-5-6">
+        <div class="tree-img" style="margin-top: 50%;display: none" >
+            <img src="static/image/seed.jpg" >
+        </div>
+        <div class="bless-tucao" style="display: none">
+            <button class="bless">祝福</button>
+            <button class="tucao">吐槽</button>
+        </div>
+
+        <!--BEGIN dialog-->
+        <div class="weui_dialog_confirm" id="dialog1" style="display: none;">
+            <div class="weui_mask"></div>
+            <div class="weui_dialog">
+                <div class="weui_dialog_hd"></div>
+                <textarea class="weui_dialog_bd" style="width: 100%"></textarea>
+                <div class="weui_dialog_ft">
+                    <a href="#" class="weui_btn_dialog default">取消</a>
+                    <a href="#" class="weui_btn_dialog primary">确定</a>
+                </div>
+            </div>
+        </div>
+        <!--END dialog-->
+
+        <!--BEGIN list-show-->
+        <div class="list-contain" style="display: none">
+            <table class="item-con">
+                <tbody>
+                <tr>
+                    <td class="item-left">头像|名字</td>
+                    <td class="item-main">祝福/吐槽</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="table_line">
+            <table class="item-con">
+                <tbody>
+                <tr>
+                    <td class="item-left">头像|名字</td>
+                    <td class="item-main">祝福/吐槽</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="table_line">
+            <table class="item-con">
+                <tbody>
+                <tr>
+                    <td class="item-left">头像|名字</td>
+                    <td class="item-main">祝福/吐槽</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="table_line">
+            <table class="item-con">
+                <tbody>
+                <tr>
+                    <td class="item-left">头像|名字</td>
+                    <td class="item-main">祝福/吐槽</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="table_line">
+            <table class="item-con">
+                <tbody>
+                <tr>
+                    <td class="item-left">头像|名字</td>
+                    <td class="item-main">祝福/吐槽</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="table_line">
+            <table class="item-con">
+                <tbody>
+                <tr>
+                    <td class="item-left">头像|名字</td>
+                    <td class="item-main">祝福/吐槽</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="table_line">
+            <table class="item-con">
+                <tbody>
+                <tr>
+                    <td class="item-left">头像|名字</td>
+                    <td class="item-main">祝福/吐槽</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="table_line">
+        </div>
+        <!--END dialog-->
+
+    </div>
+
+    <div class="right-menu pure-u-1-6" >
+        <ul >
+            <li><button class="add-friends" id="add_friend">添加朋友</button></li>
+            <li><button class="water-flower" id="water_flower">浇水</button></li>
+            <li><button class="history">历史</button></li>
+            <li><button class="willing">心愿</button></li>
+        </ul>
+    </div>
+</div>
+<div class="footer">power_by 创维俱乐部</div>
+</body>
+</html>
