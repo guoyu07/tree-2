@@ -52,8 +52,8 @@ body{
 .plant-tree{
     background-color: #c75c5c;
 }
-.reject-plant{
-    background-color: #76c5ad;
+.reject-to-plant{
+    background-color: #56C56D;
 }
 
 /****************小部件******************/
@@ -104,5 +104,6 @@ body{
     color: #55b599;
 }
 .selected-not{
+    padding-left: 10%;
     color: #c75c5c;
 }
